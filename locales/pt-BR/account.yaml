@@ -11,7 +11,6 @@ account:
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: Conta
     loadingInfo: Carregando informações da conta...
     displayName: Nome de exibição
     email: E-mail
@@ -19,7 +18,6 @@ account:
     # Connected accounts section
     connectedAccounts:
       title: Contas conectadas
-      loading: Carregando contas conectadas...
       noAccounts: Nenhuma conta conectada
       loggedInWith: Logado com {provider}
 
@@ -33,15 +31,11 @@ account:
     removal:
       removeAccount: Remover conta
       cancelRequest: Cancelar solicitação de remoção
-      cannotBeUndone: Esta ação não pode ser desfeita!
       removedAfter: "Sua conta será removida após {time}."
       aFewHours: algumas horas
       aDay: um dia
       days: "{count} dias"
-      workspaceDeletionWarning: "Você tem {count} espaço(s) de trabalho de propriedade que serão excluídos."
-      confirmTitle: Remover esta conta?
       cancelSuccess: Solicitação de remoção cancelada com sucesso!
-      submitSuccess: Solicitação de remoção criada com sucesso!
       status:
         inProgressTitle: A remoção da sua conta está em andamento.
         inProgressDescription: Isso pode levar alguns minutos. Você pode fechar esta janela com segurança — o processo continuará em segundo plano.
@@ -67,7 +61,6 @@ account:
     dangerZone:
       title: Zona de Perigo
     errors:
-      generic: Ocorreu um erro, entre em contato com nosso suporte em dbdiagram@holistics.io
       sessionExpired: Sessão expirada, por favor faça login novamente.
       updateProfileFailed: Falha ao atualizar o perfil do usuário, por favor tente novamente.
       loadProfileFailed: Falha ao carregar o perfil do usuário, por favor tente atualizar a página.

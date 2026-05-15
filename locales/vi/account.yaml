@@ -11,14 +11,12 @@ account:
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: Tài khoản
     loadingInfo: Đang tải thông tin tài khoản...
     displayName: Tên hiển thị
     email: Email
 
     connectedAccounts:
       title: Tài khoản liên kết
-      loading: Đang tải tài khoản liên kết...
       noAccounts: Không có tài khoản liên kết
       loggedInWith: Đã đăng nhập bằng {provider}
 
@@ -30,15 +28,11 @@ account:
     removal:
       removeAccount: Xóa tài khoản
       cancelRequest: Hủy yêu cầu xóa
-      cannotBeUndone: Hành động này không thể hoàn tác!
       removedAfter: "Tài khoản của bạn sẽ bị xóa sau {time}."
       aFewHours: vài giờ
       aDay: một ngày
       days: "{count} ngày"
-      workspaceDeletionWarning: "{count} không gian làm việc của bạn sẽ bị xóa:"
-      confirmTitle: Xóa tài khoản này?
       cancelSuccess: Yêu cầu xóa đã được hủy thành công!
-      submitSuccess: Yêu cầu xóa đã được tạo thành công!
       status:
         inProgressTitle: Tài khoản của bạn đang được xóa.
         inProgressDescription: Quá trình này có thể mất vài phút. Bạn có thể đóng cửa sổ này — quá trình sẽ tiếp tục ở nền.
@@ -64,7 +58,6 @@ account:
     dangerZone:
       title: Vùng nguy hiểm
     errors:
-      generic: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
       sessionExpired: Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại.
       updateProfileFailed: Không thể cập nhật hồ sơ người dùng, vui lòng thử lại.
       loadProfileFailed: Không thể tải hồ sơ người dùng, vui lòng thử tải lại trang.

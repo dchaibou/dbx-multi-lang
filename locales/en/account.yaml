@@ -14,7 +14,6 @@ account:
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: Account # Modal main title
     loadingInfo: Loading account information... # Loading spinner text
     displayName: Display Name # Label for display name field
     email: Email # Label for email field
@@ -22,7 +21,6 @@ account:
     # Connected accounts section
     connectedAccounts:
       title: Connected Accounts # Section title
-      loading: Loading connected accounts... # Loading text for connected accounts
       noAccounts: No connected accounts # Empty state text
       loggedInWith: Logged in with {provider} # Provider badge label (e.g., "Logged in with Google")
 
@@ -36,15 +34,11 @@ account:
     removal:
       removeAccount: Remove account # Remove account button label
       cancelRequest: Cancel removal request # Cancel removal request button label
-      cannotBeUndone: This action cannot be undone! # Warning text when no removal request
       removedAfter: "Your account will be removed after {time}." # Removal countdown text
       aFewHours: a few hours # Time label when less than 1 day remaining
       aDay: a day # Time label when exactly 1 day remaining
       days: "{count} days" # Time label for multiple days remaining
-      workspaceDeletionWarning: "You have {count} owned workspace(s) that will be deleted:" # Warning about workspaces to be deleted
-      confirmTitle: Remove this account? # Confirmation modal title
       cancelSuccess: Removal request was canceled successfully! # Success toast after canceling
-      submitSuccess: Removal request was created successfully! # Success toast after submitting
       status:
         inProgressTitle: Your account removal is in progress.
         inProgressDescription: This may take a few moments. You can safely close this window — the process will continue in the background.
@@ -70,7 +64,6 @@ account:
     dangerZone:
       title: Danger Zone
     errors:
-      generic: An error has occurred, please contact our support at dbdiagram@holistics.io # Generic error toast
       sessionExpired: Session expired, please log in again.
       updateProfileFailed: Failed to update user profile, please try again.
       loadProfileFailed: Failed to load user profile, please try to refresh the page.

@@ -11,7 +11,6 @@ account:
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: Hesap Ayarları # Modal main title
     loadingInfo: Hesap bilgileri yükleniyor... # Loading spinner text
     displayName: Görünen Ad # Label for display name field
     email: E-posta # Label for email field
@@ -19,7 +18,6 @@ account:
     # Connected accounts section
     connectedAccounts:
       title: Bağlı Hesaplar # Section title
-      loading: Bağlı hesaplar yükleniyor... # Loading text for connected accounts
       noAccounts: Bağlı hesap yok # Empty state text
       loggedInWith: "{provider} ile giriş yapıldı" # Provider badge label (e.g., "Logged in with Google")
 
@@ -33,15 +31,11 @@ account:
     removal:
       removeAccount: Hesabı Sil # Remove account button label
       cancelRequest: Silme isteğini iptal et # Cancel removal request button label
-      cannotBeUndone: Bu işlem geri alınamaz! # Warning text when no removal request
       removedAfter: "Hesabınız {time} sonra silinecektir." # Removal countdown text
       aFewHours: birkaç saat # Time label when less than 1 day remaining
       aDay: bir gün # Time label when exactly 1 day remaining
       days: "{count} gün" # Time label for multiple days remaining
-      workspaceDeletionWarning: "Sahip olduğunuz {count} çalışma alanı silinecektir:" # Warning about workspaces to be deleted
-      confirmTitle: Bu hesabı silmek istiyor musunuz? # Confirmation modal title
       cancelSuccess: Silme isteği başarıyla iptal edildi! # Success toast after canceling
-      submitSuccess: Silme isteği başarıyla oluşturuldu! # Success toast after submitting
       status:
         inProgressTitle: Hesabınızın kaldırılması devam ediyor.
         inProgressDescription: Bu birkaç dakika sürebilir. Bu pencereyi güvenle kapatabilirsiniz — işlem arka planda devam edecektir.
@@ -67,7 +61,6 @@ account:
     dangerZone:
       title: Tehlikeli Bölge
     errors:
-      generic: Bir hata oluştu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin. # Generic error toast
       sessionExpired: Oturum süresi doldu, lütfen tekrar giriş yapın.
       updateProfileFailed: Kullanıcı profili güncellenemedi, lütfen tekrar deneyin.
       loadProfileFailed: Kullanıcı profili yüklenemedi, lütfen sayfayı yenilemeyi deneyin.

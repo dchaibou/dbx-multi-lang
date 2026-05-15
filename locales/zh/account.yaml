@@ -11,14 +11,12 @@ account:
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: 账户
     loadingInfo: 正在加载账户信息...
     displayName: 显示名称
     email: 邮箱
 
     connectedAccounts:
       title: 已关联账户
-      loading: 正在加载已关联账户...
       noAccounts: 没有已关联的账户
       loggedInWith: 已通过 {provider} 登录
 
@@ -30,15 +28,11 @@ account:
     removal:
       removeAccount: 删除账户
       cancelRequest: 取消删除请求
-      cannotBeUndone: 此操作无法撤销！
       removedAfter: "您的账户将在{time}后被删除。"
       aFewHours: 几小时
       aDay: 一天
       days: "{count}天"
-      workspaceDeletionWarning: "您拥有 {count} 个工作区将被删除："
-      confirmTitle: 删除此账户？
       cancelSuccess: 删除请求已成功取消！
-      submitSuccess: 删除请求已成功创建！
       status:
         inProgressTitle: 您的账户正在删除中。
         inProgressDescription: 这可能需要几分钟。您可以安全关闭此窗口 — 该过程将在后台继续进行。
@@ -64,7 +58,6 @@ account:
     dangerZone:
       title: 危险区域
     errors:
-      generic: 发生错误，请联系我们的支持团队 dbdiagram@holistics.io
       sessionExpired: 会话已过期，请重新登录。
       updateProfileFailed: 更新用户资料失败，请重试。
       loadProfileFailed: 加载用户资料失败，请尝试刷新页面。
