@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## 1.1.14 (May 19, 2026)
 ### Misc
 * Add copywriting for portal's user profile
 
