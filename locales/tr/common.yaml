@@ -13,6 +13,8 @@ common:
     export: Dışa Aktar # Export icon in header dropdown (opens export options)
     ok: Tamam # Simple acknowledgment button in alerts
     submit: Gönder # Form submission button (submits form data)
+    save: Kaydet
+    next: İleri
 
   # ========================================
   # Help menu - Top-right help icon (?) dropdown in header
@@ -22,7 +24,6 @@ common:
     documentation: Dokümantasyon # External link to docs.dbdiagram.io
     releaseNotes: Sürüm Notları # Link to changelog page
     roadmap: Ürün Yol Haritası # Link to feature roadmap (publicly visible)
-    basicEditing: Temel Düzenleme Deneyimi # Link to editing guide documentation
     sendFeedback: Geri Bildirim Gönder # Link to feedback form (opens modal)
     askCommunity: Topluluğa Sor # Link to Discord/community forum
     suggestFeature: Özellik Öner # Link to feature request board
@@ -107,6 +108,7 @@ common:
   # ========================================
   states:
     empty: Veri Yok # Empty table/list message (centered)
+    loading: Yükleniyor...
 
   # ========================================
   # Code editor - Right panel DBML code editor

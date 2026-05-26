@@ -118,18 +118,24 @@ modals:
   # ========================================
   publish:
     title: "Şuraya Yayımla:" # Modal title (publish dropdown)
-    publishedTitle: "Şuraya Yayımlandı:" # Modal title for published diagram
+    reviewAndPublishTitle: "İncele ve şuraya yayımla:" # Modal title for review and publish modal
     dbdocsLink: dbdocs # Link label
+    cancelButton: İptal # Cancel button
     publishButton: Yayımla # Publish button
+    reviewAndPublishButton: İncele ve Yayımla # Publish button
     bullet1: Diyagramınızın web üzerinden görüntülenebilen yeni bir veritabanı dokümantasyonunu yayımlayın. # Feature bullet point
     bullet2: Yayımlanan belge, e-postunuza bağlı bir dbdocs hesabında erişilebilir olacaktır. # Feature bullet point
     bullet3: Diyagramınızdaki değişiklikler, dbdocs belgesini otomatik olarak güncellemeyecektir. # Feature bullet point
+    publishNewOrUpdate: Yeni bir belge yayımla / Mevcut birini güncelle # Section title
+    updateExisting: Mevcut bir belgeyi güncelle # Update option
+    publishNewOption: Yeni bir belge yayımla # Publish a new document option
     projectPublicDefault: dbdocs projeniz varsayılan olarak "herkese açık" (public) ayarlanmıştır. Kişiler bağlantı aracılığıyla erişim sağlayabilir. # Public default info
     documentProjectName: Belge proje adı # Project name field label
     enterProjectName: Proje adını girin # Project name placeholder
     options: Seçenekler # Options section title
+    ownerOnlyUpdatePublishDestination: Yalnızca diyagram sahibi belge hedefini güncelleyebilir # Non-owner message for selecting publish destination
     passwordProtection: Parola koruması # Password section title
-    passwordOptional: Bir parola girin (isteğe bağlı) # Password placeholder
+    passwordPlaceholder: Bir parola girin # Password placeholder
     passwordMinLength: Parola en az 6 karakter olmalıdır # Password validation
     feedback: Bu özellik hakkındaki # Feedback label
     feedbackLink: geri bildirimleriniz # Feedback link
@@ -149,6 +155,14 @@ modals:
     projectUrlHeader: URL # Header for project URL column in popover
     publishNewQuestion: Başka bir projeye mi yayımlamak istiyorsunuz? # Prompt to publish to a new project
     publishNewAction: Yeni bir projeye yayımla # Action link text
+    resolveConflictsAndErrorsBeforePublish: Yayımlamadan önce tüm çakışmaları ve hataları çözün. # Hint to resolve all conflicts and errors before publishing
+    currentChange: Mevcut Değişiklik # Current change conflict marker text
+    incomingChange: Gelen Değişiklik # Incoming change conflict marker text
+    bothChanges: Her İki Değişiklik # Both change conflict marker text
+    acceptChangeButton: "{conflictTypeText} Kabul Et" # Accept change button
+    acceptAllIncomingChangesButton: Tüm Gelen Değişiklikleri Kabul Et # Accept all incoming changes button
+    conflictWordSingular: çakışma # Word for counting conflicts
+    conflictWordPlural: çakışma # Word for counting conflicts
 
   # ========================================
   # Import modal - Import diagram

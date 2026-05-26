@@ -103,5 +103,5 @@ portal:
     missingState: 'Eksik zorunlu parametre: state' # OAuth error
     invalidAccess: Geçersiz Erişim # OAuth error
     pageMustBeOpened: Bu sayfa uygulama içinden açılmalıdır. # OAuth error
-    unsupportedPrompt: Desteklenmeyen prompt parametresi # OAuth error
+    unsupportedParameter: Desteklenmeyen {message} parametresi # OAuth error
     unexpectedError: Beklenmeyen hata # OAuth error

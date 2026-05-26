@@ -2,11 +2,15 @@
 # UI Areas: Manage Account modal, Change Email modal (stepper flow)
 
 account:
+  page:
+    title: dbx hesabınızı yönetin
+    description: "Burada yaptığınız değişiklikler üç hizmette de yansıtılacaktır:"
+    authenticating: Kimlik doğrulanıyor...
+
   # ========================================
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: Hesap Ayarları # Modal main title
     loadingInfo: Hesap bilgileri yükleniyor... # Loading spinner text
     displayName: Görünen Ad # Label for display name field
     email: E-posta # Label for email field
@@ -14,7 +18,6 @@ account:
     # Connected accounts section
     connectedAccounts:
       title: Bağlı Hesaplar # Section title
-      loading: Bağlı hesaplar yükleniyor... # Loading text for connected accounts
       noAccounts: Bağlı hesap yok # Empty state text
       loggedInWith: "{provider} ile giriş yapıldı" # Provider badge label (e.g., "Logged in with Google")
 
@@ -26,20 +29,67 @@ account:
 
     # Account removal
     removal:
-      removeAccount: Hesabı Sil... # Remove account button label
+      removeAccount: Hesabı Sil # Remove account button label
       cancelRequest: Silme isteğini iptal et # Cancel removal request button label
-      cannotBeUndone: Bu işlem geri alınamaz! # Warning text when no removal request
       removedAfter: "Hesabınız {time} sonra silinecektir." # Removal countdown text
       aFewHours: birkaç saat # Time label when less than 1 day remaining
       aDay: bir gün # Time label when exactly 1 day remaining
       days: "{count} gün" # Time label for multiple days remaining
-      workspaceDeletionWarning: "Sahip olduğunuz {count} çalışma alanı silinecektir:" # Warning about workspaces to be deleted
-      confirmTitle: Bu hesabı silmek istiyor musunuz? # Confirmation modal title
       cancelSuccess: Silme isteği başarıyla iptal edildi! # Success toast after canceling
-      submitSuccess: Silme isteği başarıyla oluşturuldu! # Success toast after submitting
+      status:
+        inProgressTitle: Hesabınızın kaldırılması devam ediyor.
+        inProgressDescription: Bu birkaç dakika sürebilir. Bu pencereyi güvenle kapatabilirsiniz — işlem arka planda devam edecektir.
+        completedTitle: Hesabınız başarıyla kaldırıldı.
+        completedDescription: "Bu pencereyi güvenle kapatabilirsiniz. Not: Otomatik olarak çıkış yapılmayacaktır. Lütfen diğer cihazlardan manuel olarak çıkış yapın."
+        failedTitle: Hesap kaldırma başarısız oldu.
+        failedContactSupport: "Lütfen destek ekibimizle iletişime geçin:"
 
+    notifications:
+      profileUpdated: Kullanıcı profili başarıyla güncellendi.
+      profileImageUpdated: Kullanıcı profil resmi başarıyla güncellendi.
+    profileImage:
+      title: Kullanıcı Profil Resmi
+      switchToGravatar: Gravatar profil resmine geç
+      switchToGravatarHint: Avatarınızı değiştirmek için lütfen Gravatar profil resmine geçin.
+      redirectingToGravatar: Gravatar'a yönlendiriliyor...
+      changeOnGravatar: Gravatar'da Profil Resmini Değiştir
+      doneUploading: Gravatar'a resminizi yüklediniz mi?
+      gravatarHint: Profil fotoğrafınızı değiştirmek için e-postanızla Gravatar'a giriş yapın.
+      refresh: Profil resminizi yenile
+    userInfo:
+      title: Kullanıcı Bilgileri
+    dangerZone:
+      title: Tehlikeli Bölge
     errors:
-      generic: Bir hata oluştu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin. # Generic error toast
+      sessionExpired: Oturum süresi doldu, lütfen tekrar giriş yapın.
+      updateProfileFailed: Kullanıcı profili güncellenemedi, lütfen tekrar deneyin.
+      loadProfileFailed: Kullanıcı profili yüklenemedi, lütfen sayfayı yenilemeyi deneyin.
+      updateProfileImageFailed: Kullanıcı profil resmi güncellenemedi, lütfen tekrar deneyin.
+      cancelRemovalFailed: Hesap kaldırma isteği iptal edilemedi, lütfen tekrar deneyin.
+
+  removeAccountModal:
+    title: Hesabı Kaldır
+    loadingAccountData: Hesap verileri yükleniyor…
+    steps:
+      whatWillBeRemoved: Ne kaldırılacak
+      verifyIdentity: Kimliğinizi doğrulayın
+      identityVerified: Kimlik doğrulandı
+      deleteAccount: Hesabı sil
+      accountDeleted: Hesap silindi
+    step1:
+      description: "Hesabınızı kaldırmak aşağıdaki verileri kalıcı olarak silecektir:"
+      warning: Bu işlem kalıcıdır ve geri alınamaz.
+    step2:
+      otpSentTo: Şu adrese gönderilen 6 haneli kodu girin
+      resendCode: Kodu yeniden gönder
+      resendCodeCooldown: "Kodu yeniden gönder ({seconds}s)"
+    step3:
+      description: Hesabınızı ve tüm ilişkili verileri kalıcı olarak silmek üzeresiniz. Bu işlem geri alınamaz.
+      confirmButton: Hesabımı sil
+    errors:
+      generic: Bir şeyler yanlış gitti. Lütfen tekrar deneyin.
+      ssoAccount: SSO hesapları kişisel hesap ayarlarını yönetemez.
+      removalInProgress: Zaten devam eden bir kaldırma işlemi var.
 
   # ========================================
   # Change Email modal - 4-step email change flow
