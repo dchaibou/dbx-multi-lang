@@ -307,3 +307,6 @@ modals:
     description: Movemos suas configurações de visualização diretamente para o código DBML como blocos DiagramView. Isso torna suas visualizações parte do seu DBML junto ao seu schema.
     learnMore: Saiba mais sobre Visualizações de Diagrama
     confirm: Continuar
+  sessionExpired:
+    title: Sessão Expirada
+    description: Sua sessão expirou, você será automaticamente desconectado em {countdown} segundo(s)…

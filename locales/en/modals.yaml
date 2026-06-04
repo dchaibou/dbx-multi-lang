@@ -312,3 +312,9 @@ modals:
       This makes your views part of your DBML code alongside your schema.
     learnMore: Learn more about Diagram Views
     confirm: Continue
+  # ========================================
+  # Session expired modal
+  # ========================================
+  sessionExpired:
+    title: Session Expired
+    description: Your session has expired, you will be automatically logged out in {countdown} second(s)…

@@ -263,3 +263,6 @@ modals:
     description: Chúng tôi đã chuyển cài đặt diagram view trực tiếp vào DBML dưới dạng các khối DiagramView. Điều này giúp diagram view trở thành một phần của DBML cùng với schema.
     learnMore: Tìm hiểu thêm về Diagram Views
     confirm: Tiếp tục
+  sessionExpired:
+    title: Phiên đăng nhập hết hạn
+    description: Phiên đăng nhập của bạn đã hết hạn, bạn sẽ tự động đăng xuất sau {countdown} giây…

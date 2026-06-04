@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.15 (May 29, 2026)
+### Misc
+* Add copywriting for session expired modal
+
 ## 1.1.14 (May 19, 2026)
 ### Misc
 * Add copywriting for portal's user profile

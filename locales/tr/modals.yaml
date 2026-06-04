@@ -312,3 +312,6 @@ modals:
       Bu sayede görünümleriniz şemanızla birlikte DBML kodunuzun bir parçası haline gelir.
     learnMore: Diyagram Görünümleri hakkında daha fazla bilgi edinin
     confirm: Devam et
+  sessionExpired:
+    title: Oturum Süresi Doldu
+    description: Oturumunuzun süresi doldu, {countdown} saniye içinde otomatik olarak çıkış yapılacak…

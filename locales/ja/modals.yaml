@@ -264,3 +264,6 @@ modals:
     description: ダイアグラムビューの設定をDiagramViewブロックとしてDBMLコードに直接移動しました。これにより、ビューがDBMLコードの一部になります。
     learnMore: ダイアグラムビューについて詳しくはこちら
     confirm: 続行
+  sessionExpired:
+    title: セッションの有効期限が切れました
+    description: セッションの有効期限が切れました。{countdown} 秒後に自動的にログアウトされます…
