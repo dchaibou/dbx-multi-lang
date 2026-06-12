@@ -167,3 +167,7 @@ dbrenderer:
   # ========================================
   viewNoteModal:
     infoTooltip: Markdown ile biçimlendirme desteklenmektedir
+    editBtn:
+      title: Düzenle
+    cancelBtn: İptal
+    saveBtn: Kaydet
