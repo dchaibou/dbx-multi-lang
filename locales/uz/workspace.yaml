@@ -94,6 +94,7 @@ workspace:
     plan: reja # Plan suffix label
     diagramCount: "Diagrammalar: {count}/{limit}" # Diagram count indicator
     duplicate: Nusxalash (Duplicate) # Duplicate button
+    transferOwnership: Egalikni o'tkazish # Transfer ownership button
     delete: O'chirish # Delete button
     untitledDiagram: Nomsiz diagramma # Default name for unnamed diagrams
     columns:

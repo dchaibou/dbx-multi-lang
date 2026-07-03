@@ -167,3 +167,7 @@ dbrenderer:
   # ========================================
   viewNoteModal:
     infoTooltip: Markdown uslubida formatlash qo'llab-quvvatlanadi
+    editBtn:
+      title: Tahrirlash
+    cancelBtn: Bekor qilish
+    saveBtn: Saqlash

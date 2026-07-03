@@ -103,5 +103,5 @@ portal:
     missingState: "Majburiy parametr yetishmayapti: state" # OAuth error
     invalidAccess: Ruxsat yaroqsiz # OAuth error
     pageMustBeOpened: Ushbu sahifa dasturdan ochilishi kerak. # OAuth error
-    unsupportedPrompt: Qo'llab-quvvatlanmaydigan prompt parametri # OAuth error
+    unsupportedParameter: "Qo'llab-quvvatlanmaydigan {message} parametri" # OAuth error
     unexpectedError: Kutilmagan xatolik # OAuth error

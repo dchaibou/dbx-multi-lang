@@ -13,6 +13,8 @@ common:
     export: Eksport # Export icon in header dropdown (opens export options)
     ok: OK # Simple acknowledgment button in alerts
     submit: Yuborish # Form submission button (submits form data)
+    save: Saqlash # Save button in forms
+    next: Keyingi # Next button in multi-step flows
 
   # ========================================
   # Help menu - Top-right help icon (?) dropdown in header
@@ -106,6 +108,13 @@ common:
   # ========================================
   states:
     empty: Ma'lumot yo'q # Empty table/list message (centered)
+    loading: Yuklanmoqda... # Generic loading spinner message
+
+  # ========================================
+  # Notes - Warning/note section header
+  # ========================================
+  notes:
+    header: "Iltimos, e'tibor bering:" # Header label for note/warning sections in modals
 
   # ========================================
   # Code editor - Right panel DBML code editor
@@ -121,6 +130,10 @@ common:
   # Toast notifications - Popup messages at bottom-right
   # ========================================
   notifications:
+    titles:
+      error: Xatolik yuz berdi # Default title for error toast notifications
+      success: "Muvaffaqiyatli!" # Default title for success toast notifications
+      warning: Ogohlantirish # Default title for warning toast notifications
     noPermissionRemoveView: "Diagramma ko'rinishini o'chirishga ruxsatingiz yo'q!" # Toast error (shown when user can't remove view)
     noPermissionRenameView: "Diagramma ko'rinishi nomini o'zgartirishga ruxsatingiz yo'q!" # Toast error (shown when user can't rename view)
     workspaceDisabled: Ushbu ish maydoni (workspace) hozirda o'chirilgan # Warning toast (workspace subscription issue)

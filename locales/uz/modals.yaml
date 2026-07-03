@@ -54,6 +54,8 @@ modals:
       removeDesc: Ushbu hamkorni olib tashlash. # Remove description
       noAccess: Kirish huquqi yo'q # No access label
       noAccessDesc: Ushbu diagrammaga kirish huquqi yo'q # No access description
+      transferOwnership: Egalikni o'tkazish # Transfer ownership permission label
+      transferOwnershipDesc: Ushbu diagramma egaligini o'tkazish # Transfer ownership permission description
     invite:
       placeholder: Elektron pochta (vergul yoki probel bilan ajrating) # Email input placeholder
       button: Taklif qilish # Invite button
@@ -312,3 +314,25 @@ modals:
       Bu sizning ko'rinishlaringizni sxemangiz bilan birga DBML kodingizning bir qismiga aylantiradi.
     learnMore: Diagramma ko'rinishlari (Views) haqida ko'proq bilib oling
     confirm: Davom etish
+  # ========================================
+  # Session expired modal
+  # ========================================
+  sessionExpired:
+    title: Sessiya muddati tugadi
+    description: "Sessiyangiz muddati tugadi, {countdown} soniyadan so'ng tizimdan avtomatik chiqarilasiz…"
+
+  # ========================================
+  # Transfer ownership modal
+  # ========================================
+  transferOwnership:
+    title: Egalikni o'tkazish # Modal title
+    subtitle: "Egalikni kimga o'tkazishni tanlang:" # Subtitle below the title
+    searchPlaceholder: Ism yoki elektron pochta bo'yicha qidirish... # Search input placeholder
+    noMembersFound: "A'zolar topilmadi." # Empty state when search has no results
+    transferButton: O'tkazish # Confirm transfer button
+    notes:
+      irreversible: Bu amalni ortga qaytarib bo'lmaydi. # Warning note
+      scopeRemains: "Versiyalar tarixi, diagrammaning hamkorlari va ish maydonining kirish doirasi o'zgarishsiz qoladi." # Informational note
+    confirmMessage: "Ushbu diagramma egaligini <b>{memberLabel}</b>ga o'tkazishni xohlaysizmi?" # Confirmation dialog message
+    success: "Diagramma egaligi {memberLabel}ga o'tkazildi" # Success toast
+    error: "Diagramma egaligini o'tkazib bo'lmadi. Iltimos, qayta urinib ko'ring." # Error toast
